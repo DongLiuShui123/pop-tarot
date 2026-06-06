@@ -86,13 +86,4 @@ npm run check      # 类型检查 + 构建
 └── vite.config.ts
 ```
 
-## 上传 GitHub 前的清理建议
 
-仓库应提交源码、图片、配置文件和 `package-lock.json`。不要提交以下内容：
-
-- `node_modules/`
-- `dist/`
-- `.env`、`.env.local`
-- 嵌套或重复生成的临时项目目录，例如 `my-tarot-app/`
-
-这些内容已经在 `.gitignore` 中排除或建议排除。
